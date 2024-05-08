@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: #EEE7E7;
+}
+
+body {
+	background-color: #262525;
+}
+
+.basic {
+	display: flex;
+	align-items: center;
+	margin-left: 100px;
+	height: 50vh;
+}
+
+
+.welcome {
+	color: #000000;
+}
+
+
+.basic > h1 {
+	padding: 50px;
+}
+
+
+.about-me > h1 {
+	padding-top: 40px;
+	text-align: center;
+/*	text-decoration: underline;*/
+}
+
+
+#AIM-main {
+	text-decoration: dotted;
+}
+
+#cards {
+	padding: 5px;
+}
+
+.contact-info {
+	margin: 2px;
+	padding: 0;
+	color: #000000;
+}
+
+#blog {
+	background-image: url('../Resources/aboutContacts.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.gallery-section {
+	margin-top: 70px;
+	overflow: hidden;
+	/* border: 1px solid rgba(197, 208, 222, 0.351); */
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	align-content: center;
+}
+
+.gallery-item {
+	display: grid;
+}
+
+.gallery-item--img {
+	width: 100%;
+	height: 200px;
+}
+
+.gallery-item-content {
+	align-self: center;
+	justify-self: center;
+}
+
+.gallery-item a:hover{
+	border: 2px solid rgba(41, 255, 52, 0.833);
+	opacity: 300px;
+}
+

@@ -11,7 +11,7 @@ body {
 .basic {
 	display: flex;
 	align-items: center;
-	margin-left: 100px;
+	/* margin-left: 100px; */
 	height: 50vh;
 }
 
@@ -21,15 +21,15 @@ body {
 }
 
 
-.basic > h1 {
+.basic>h1 {
 	padding: 50px;
 }
 
 
-.about-me > h1 {
+.about-me>h1 {
 	padding-top: 40px;
 	text-align: center;
-/*	text-decoration: underline;*/
+	/*	text-decoration: underline;*/
 }
 
 
@@ -78,8 +78,7 @@ body {
 	justify-self: center;
 }
 
-.gallery-item a:hover{
+.gallery-item a:hover {
 	border: 2px solid rgba(41, 255, 52, 0.833);
 	opacity: 300px;
 }
-
